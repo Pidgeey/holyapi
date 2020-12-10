@@ -5,6 +5,7 @@
     "type": "library",
     "license": "MIT",
     "time": "2020-12-10",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Pidgeey",
