@@ -1,11 +1,9 @@
 {
     "name": "pidgeey/holyapi",
     "description": "The real true only api engine",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
-    "time": "2020-12-10",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Pidgeey",
