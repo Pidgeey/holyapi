@@ -1,0 +1,22 @@
+{
+    "name": "florianjavanet/holyfapi",
+    "description": "The real true only api engine",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pidgeey",
+            "email": "javanet.florian@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "slim/psr7": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
