@@ -1,7 +1,10 @@
 {
-    "name": "florianjavanet/holyfapi",
+    "name": "holyapi",
     "description": "The real true only api engine",
-    "type": "project",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "time": "2020-12-10",
     "authors": [
         {
             "name": "Pidgeey",
