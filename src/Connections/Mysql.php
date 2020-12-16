@@ -19,10 +19,9 @@ class Mysql implements ConnectionInterface
      */
     public function __construct()
     {
-        $env = require __DIR__ . '/../../config/environnement.php';
-        $dsn = "mysql:dbname=".$env['DB_NAME'].";host=".$env['DB_HOST'];
-        $user = $env['DB_USER'];
-        $password = $env['DB_PASSWORD'];
+        $dsn = "mysql:dbname=".$_ENV['DB_NAME'].";host=".$_ENV['DB_HOST'];
+        $user = $_ENV['DB_USER'];
+        $password = $_ENV['DB_PASSWORD'];
         try {
             $this->mysql_connection = new PDO($dsn, $user, $password);
             $this->mysql_connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

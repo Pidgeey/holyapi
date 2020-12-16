@@ -14,7 +14,8 @@
         "php": "^7.4",
         "ext-json": "*",
         "ext-pdo": "*",
-        "slim/psr7": "^1.0"
+        "slim/psr7": "^1.0",
+        "vlucas/phpdotenv": "^5.2"
     },
     "autoload": {
         "psr-4": {
