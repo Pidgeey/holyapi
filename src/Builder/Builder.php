@@ -57,6 +57,21 @@ class Builder
     }
 
     /**
+     * Add where in clause
+     *
+     * @param string $column
+     * @param array $array
+     *
+     * @return $this
+     */
+    public function whereIn(string $column, array $array): self
+    {
+        $values = implode(',', $array);
+        $this->builder = $this->builder." WHERE $column IN ( $values )";
+        return $this;
+    }
+
+    /**
      * Add where and clause
      *
      * @param string $column
