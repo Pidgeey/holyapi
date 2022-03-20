@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^8.0",
         "ext-json": "*",
         "ext-pdo": "*",
         "slim/psr7": "^1.0",
